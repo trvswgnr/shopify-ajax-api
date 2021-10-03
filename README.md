@@ -1,1 +1,1 @@
-# Just a TypeScript test
+# AJAX API Wrapper for Shopify
