@@ -17,7 +17,6 @@
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
     "lint:fix": "eslint src --fix --ext .js,.ts",
-    "publish": "npm publish",
     "serve": "browser-sync start --server --files \"dist/*.css, dist/*.js, **/*.html, !node_modules/**/*.html\" --open false",
     "watch:ts": "npm run-s build; onchange \"src/*.ts\" -- run-s build -s",
     "watch": "run-p serve watch:*",
